@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+.container{
+    color: aliceblue;
+    margin: 10em;
+}
+.stan1, .stan2{
+}
+.text{
+    text-align: center;
+    margin-bottom: 10em;
+}
+.text2{
+    margin:10em;
+}
+.line{
+    margin-top: 8em;
+    height: 5px;
+    background-color: white;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+}
+@media screen and (max-width:1000px){
+    .stan1, .stan2{
+        width: 35em;
+    }
+    .text2{
+        text-align: justify;
+        margin: 2em;
+    }
+}
